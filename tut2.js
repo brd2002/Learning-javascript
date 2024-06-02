@@ -5,4 +5,16 @@
 
 // object 
 
-console.log(typeof undefined)
+// console.log(typeof undefined)
+function f(x ){
+    x = "x-"+x ; 
+    return function(y){
+        y = "y-"+x ; 
+        return function (z){
+            return "z-" + y;
+        }
+
+    }
+}
+let fx  = f("a")("b")("c")
+console.log(fx)
