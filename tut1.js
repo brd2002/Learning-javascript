@@ -10,3 +10,4 @@ let engineeringBranch = "Computer science engineering"
 console.table([
     accountId , name , collegeName , engineeringBranch
 ])
+
