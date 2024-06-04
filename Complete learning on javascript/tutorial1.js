@@ -11,3 +11,20 @@
 //let counter = 1
 //console.log(counter++)
 //console.log(++counter)
+//let anu = accountEmail.toLocaleLowerCase()
+//console.log(anu)
+//console.log(`this is my ${accoutId} and also my account email is ${accountEmail}`)
+//const score  = new Number(200)
+//console.log(score)
+//let number = Number.MAX_VALUE
+//console.log(number.toLocaleString('en-IN')) this is using -> the indian number system
+//let num1 = 2.621334
+//console.log(Math.round(num1))
+// math.round it's work like a math when the value of precision is greater
+// than 5 or equal then it's give the ceil value of the number
+//let date = new Date
+//let stringDate = date.toLocaleDateString()
+//let allDateInfo = stringDate.split(" ")
+//console.log(stringDate)
+//const myArray = [1,2,3,4,5,19,10,7,2]
+//console.log(myArray.sort((a, b) => a > b ))
