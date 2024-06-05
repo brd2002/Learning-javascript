@@ -28,3 +28,35 @@
 //console.log(stringDate)
 //const myArray = [1,2,3,4,5,19,10,7,2]
 //console.log(myArray.sort((a, b) => a > b ))
+const appUser = new Object() // this is a single tone object
+//console.log(appUser)
+//console.log(appUser.hasOwnProperty('isLogged'))
+function sayMyname() {
+    console.log("My name is bharat")
+}
+
+function addTwoNumbers(number1, number2) {
+//    console.log(typeof number1)
+//    console.log(typeof number2)
+    if (typeof number1 === "number" && typeof number2 === "number") {
+        let result = (number1 + number2)
+        return result
+    }
+//    console.log("this function is running......")
+}
+
+//addTwoNumbers("a" ,"c")
+for (let i = 0; i < 10; i++) {
+//    console.log(i)
+}
+const addThreeNumbers = (number1, number2, number3) => {
+    console.log(number1 + number2 + number3)
+}
+//addThreeNumbers(1,2,3)
+//Imidiately invoked function expression iife
+(()=> {
+    console.log(`DB connected`)
+})() ; 
+(()=> {
+    console.log(`DB connected two`)
+})()
