@@ -66,5 +66,21 @@
 // bharat()
 //const emptyObject = {"name" : "Bharat ruidas"}
 //if (Object.keys(emptyObject).length === 1){
-//    console.log("this is en empty object.....")
+//    console.log("this is en emptyf object.....")
+////}
+const nameArray = ["bharat", "jitu", "anu", "kuntal"]
+nameArray.forEach((name) => {
+    console.log(`${name} he or she is my friend.`);    
+})
+
+//for (const arrayElement of nameArray) {
+//    console.log(arrayElement)
 //}
+// const map = new Map()
+// map.set("IN", "India")
+// map.set("BD", "Bangladesh")
+// console.log(map)
+// console.log();
+// Ensure no escape sequences are accidentally included
+// console.log('Javascript Learning');
+
