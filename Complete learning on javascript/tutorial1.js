@@ -68,10 +68,10 @@
 //if (Object.keys(emptyObject).length === 1){
 //    console.log("this is en emptyf object.....")
 ////}
-const nameArray = ["bharat", "jitu", "anu", "kuntal"]
-nameArray.forEach((name) => {
-    console.log(`${name} he or she is my friend.`);    
-})
+// const nameArray = ["bharat", "jitu", "anu", "kuntal"]
+// nameArray.forEach((name) => {
+//     console.log(`${name} he or she is my friend.`);    
+// })
 
 //for (const arrayElement of nameArray) {
 //    console.log(arrayElement)
@@ -83,4 +83,4 @@ nameArray.forEach((name) => {
 // console.log();
 // Ensure no escape sequences are accidentally included
 // console.log('Javascript Learning');
-
+console.log("what is your name ? ");
